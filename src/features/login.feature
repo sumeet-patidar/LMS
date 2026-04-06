@@ -5,3 +5,4 @@ Feature: Login Functionality
     When I fill in the login form with valid credentials
     And I click the login button
     Then I should see the dashboard
+    And user click on the logout link
